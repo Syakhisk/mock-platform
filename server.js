@@ -30,6 +30,9 @@ router.render = async (req, res) => {
   // const x = await fetch(req.protocol + '://' + req.host + ":3000" + req.path)
   // constole.log(await x.json())
 
+  // add artificial delay
+  await new Promise((resolve) => setTimeout(resolve, 500));
+
   res.jsonp({
     metadata: {
       count: +req.meta.limit,
