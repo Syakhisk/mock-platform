@@ -9,7 +9,7 @@ const PORT = process.env["PORT"] || 3000;
 
 server.use(middlewares);
 
-// Convert our query params to json-server query params
+// Custom middleware (convert our query params to json-server query params)
 server.use((req, res, next) => {
   if (req.headers["internal"]) return next();
 
@@ -39,11 +39,12 @@ server.use((req, res, next) => {
   next();
 });
 
+// Custom output, `resourceful` format
 router.render = async (req, res) => {
   if (req.headers["internal"]) return res.jsonp(res.locals.data);
   const { query } = req.meta;
 
-  const raw = await getRaw(req, req.path, query);
+  const raw = await getRaw(req, query);
 
   const totalCount = raw.length;
   const totalPage = Math.ceil(totalCount / Number(query._limit));
@@ -66,8 +67,8 @@ router.render = async (req, res) => {
 };
 
 // Get raw data, used for getting ids and total count
-async function getRaw(req, path, query) {
-  const url = `${req.protocol}://${req.hostname}:${PORT}${path}`;
+async function getRaw(req, query) {
+  const url = `${req.protocol}://${req.hostname}:${PORT}${req.path}`;
   const _res = await axios.get(url, {
     params: {
       ...query,
