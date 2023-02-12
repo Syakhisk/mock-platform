@@ -1,54 +1,89 @@
-const jsonServer = require("json-server");
+import jsonServer from "json-server";
+import axios from "axios";
+
 const server = jsonServer.create();
 const router = jsonServer.router("db.json");
 const middlewares = jsonServer.defaults();
 
+const PORT = process.env["PORT"] || 3000;
+
 server.use(middlewares);
 
+// Convert our query params to json-server query params
 server.use((req, res, next) => {
-  // defaults
-  req.query._limit = 10;
-  req.query._page = 1;
+  if (req.headers["internal"]) return next();
 
-  // overwrites
-  if (req.query.limit) req.query._limit = req.query.limit;
-  if (req.query.page) req.query._page = req.query.page;
-  if (req.query.search) req.query.q = req.query.search;
+  const mappings = {
+    limit: "_limit",
+    page: "_page",
+    search: "q",
+  };
+
+  const defaults = {
+    limit: 10,
+    page: 1,
+  };
+
+  for (let key in mappings) {
+    // map query params
+    req.query[mappings[key]] = req.query[key] ?? defaults[key];
+
+    // removed unused params
+    req.query[key] = undefined;
+  }
 
   req.meta = {
-    limit: req.query._limit,
-    page: req.query._page,
+    query: { ...req.query },
   };
 
   next();
 });
 
 router.render = async (req, res) => {
-  const totalCount = res.getHeader("x-total-count");
+  if (req.headers["internal"]) return res.jsonp(res.locals.data);
+  const { query } = req.meta;
 
-  // // workaround to get ids
-  // const x = await fetch(req.protocol + '://' + req.host + ":3000" + req.path)
-  // constole.log(await x.json())
+  const raw = await getRaw(req, req.path, query);
+
+  const totalCount = raw.length;
+  const totalPage = Math.ceil(totalCount / Number(query._limit));
+  const ids = raw.map((i) => i.id);
 
   // add artificial delay
   await new Promise((resolve) => setTimeout(resolve, 500));
-
   res.jsonp({
     metadata: {
-      count: +req.meta.limit,
-      page: +req.meta.page,
-      total_page: Math.ceil(+totalCount / +req.meta.limit),
+      count: Number(query._limit),
+      page: Number(query._page),
+      total_page: totalPage,
       total_count: totalCount,
     },
     data: {
       paginated_result: res.locals.data,
-      ids: [],
+      ids: ids,
     },
   });
 };
 
+// Get raw data, used for getting ids and total count
+async function getRaw(req, path, query) {
+  const url = `${req.protocol}://${req.hostname}:${PORT}${path}`;
+  const _res = await axios.get(url, {
+    params: {
+      ...query,
+      _page: undefined,
+      _limit: undefined,
+    },
+    headers: {
+      internal: true,
+    },
+  });
+
+  return _res.data;
+}
+
 server.use(router);
 
-server.listen(3000, () => {
-  console.log("JSON Server is running");
+server.listen(PORT, () => {
+  console.log(`JSON Server is running on port ${PORT}`);
 });
