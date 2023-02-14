@@ -34,6 +34,7 @@ server.use((req, res, next) => {
 
   req.meta = {
     query: { ...req.query },
+    resourceful: req.path.split("/").length <= 2,
   };
 
   next();
@@ -41,7 +42,17 @@ server.use((req, res, next) => {
 
 // Custom output, `resourceful` format
 router.render = async (req, res) => {
+  // if 'internal' headers present, return raw data
   if (req.headers["internal"]) return res.jsonp(res.locals.data);
+
+  // if data is not resourceful (show, update, delete)
+  // skip the rest
+  if (!req.meta.resourceful) {
+    return res.jsonp({
+      data: res.locals.data,
+    });
+  }
+
   const { query } = req.meta;
 
   const raw = await getRaw(req, query);
