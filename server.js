@@ -34,7 +34,7 @@ server.use((req, res, next) => {
 
   req.meta = {
     query: { ...req.query },
-    resourceful: req.path.split("/").length <= 2,
+    resourceful: req.path.split("/").length <= 2 && req.method == "GET",
   };
 
   next();
@@ -93,6 +93,11 @@ async function getRaw(req, query) {
 
   return _res.data;
 }
+
+// simulate error
+// server.patch("/product-category/:id", (req, res) => {
+//   return res.sendStatus(500);
+// });
 
 server.use(router);
 
