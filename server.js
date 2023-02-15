@@ -17,16 +17,27 @@ server.use((req, res, next) => {
     limit: "_limit",
     page: "_page",
     search: "q",
+    sort: "_sort",
+    order: "_order"
   };
 
   const defaults = {
     limit: 10,
     page: 1,
   };
-
+  
   for (let key in mappings) {
+    if(req.query['sort']) {
+      var splitted = req.query['sort'].split(' ')
+    }
+
     // map query params
-    req.query[mappings[key]] = req.query[key] ?? defaults[key];
+    if(key !== 'sort' && key !== 'order') {
+      req.query[mappings[key]] = req.query[key] ?? defaults[key];
+    } else {
+      if(key === 'sort') req.query[mappings[key]] = splitted[0] ?? defaults[key]
+      else if(key === 'order') req.query[mappings[key]] = splitted[1] ?? defaults[key]
+    }
 
     // removed unused params
     req.query[key] = undefined;
