@@ -107,6 +107,16 @@ async function getRaw(req, query) {
 //   return res.sendStatus(500);
 // });
 
+// server.post("/product-category", (req, res) => {
+//   return res.status(400).send({
+//     message: "validation error",
+//     errors: {
+//       name: ["validation message"],
+//       min_temperature: ["validation message min_temp"],
+//     },
+//   });
+// });
+
 server.use(router);
 
 server.listen(PORT, () => {
