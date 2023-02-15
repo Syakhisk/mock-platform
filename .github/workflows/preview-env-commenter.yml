@@ -1,0 +1,21 @@
+name: "Preview Env: Commenter"
+
+on:
+  pull_request:
+    types: [ready_for_review]
+
+jobs:
+  create_comment:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Create Trigger Action Comment
+          uses: peter-evans/create-or-update-comment@v2
+          with:
+            issue-number: ${{github.event.pull_request.number}}
+            body: |
+              This is a multi-line test comment
+              - With GitHub **Markdown** :sparkles:
+              - Created by [create-or-update-comment][1]
+
+              [1]: https://github.com/peter-evans/create-or-update-comment
+            reactions: '+1'
