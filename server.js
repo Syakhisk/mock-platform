@@ -12,31 +12,28 @@ server.use(middlewares);
 // Custom middleware (convert our query params to json-server query params)
 server.use((req, res, next) => {
   if (req.headers["internal"]) return next();
-
+  console.log('req.query',req.query);
   const mappings = {
     limit: "_limit",
     page: "_page",
     search: "q",
-    sort: "_sort",
-    order: "_order"
+    sort: "_sort"
   };
 
   const defaults = {
     limit: 10,
     page: 1,
   };
-  
+
   for (let key in mappings) {
-    if(req.query['sort']) {
-      var splitted = req.query['sort'].split(' ')
-    }
 
     // map query params
-    if(key !== 'sort' && key !== 'order') {
-      req.query[mappings[key]] = req.query[key] ?? defaults[key];
+    if(key === 'sort' && req.query['sort']) {
+      const splitted = req.query['sort'].split(' ')
+      req.query[mappings[key]] = splitted[0] ?? defaults[key]
+      req.query['_order'] = splitted[1] ?? defaults[key]
     } else {
-      if(key === 'sort') req.query[mappings[key]] = splitted[0] ?? defaults[key]
-      else if(key === 'order') req.query[mappings[key]] = splitted[1] ?? defaults[key]
+      req.query[mappings[key]] = req.query[key] ?? defaults[key];
     }
 
     // removed unused params
