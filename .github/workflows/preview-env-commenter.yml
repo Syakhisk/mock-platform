@@ -4,10 +4,20 @@ on:
   pull_request:
     types: [ready_for_review]
 
+
 jobs:
   create_comment:
       runs-on: ubuntu-latest
       steps:
+        # - uses: actions/github-script@v6
+        #   with:
+        #     script: |
+        #       github.rest.issues.createComment({
+        #         issue_number: context.issue.number,
+        #         owner: context.repo.owner,
+        #         repo: context.repo.repo,
+        #         body: '👋 Thanks for reporting!'
+        #       })
         - name: Create Trigger Action Comment
           uses: peter-evans/create-or-update-comment@v2
           with:
