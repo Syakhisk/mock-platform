@@ -3,6 +3,9 @@ name: "Hello World!"
 on:
   workflow_dispatch:
     inputs:
+      freeText:
+        description: 'Free Text'
+        type: string
       logLevel:
         description: 'Log level'
         required: true
