@@ -1,8 +1,170 @@
 {
+  "product-type": [
+    {
+      "id": "ec282ed1-2839-4f14-b8f1-2c8a08c214b9",
+      "name": "Black Room, The",
+      "product_category": {
+        "id": "2142fe3a-0e74-44b4-af1a-eea0501dd77a",
+        "name": "Crime|Horror|Thriller"
+      }
+    },
+    {
+      "id": "74c3ecd5-3cf7-4ae9-ae25-edf9a58e6f99",
+      "name": "Evangelion: 2.0 You Can (Not) Advance (Evangerion shin gekijôban: Ha)",
+      "product_category": {
+        "id": "f5866301-6943-4d0d-8540-1f2fd284f0ce",
+        "name": "Action|Animation|Drama|Sci-Fi"
+      }
+    },
+    {
+      "id": "034527ed-48b6-4eb2-b179-50e337c3675e",
+      "name": "Adventures of Sherlock Holmes, The",
+      "product_category": {
+        "id": "3b2dd20b-1971-4249-8e24-ea8ac8e75c6e",
+        "name": "Crime|Mystery|Thriller"
+      }
+    },
+    {
+      "id": "088f1ea1-fcda-486e-99ce-cd5f17996255",
+      "name": "Reservation Road",
+      "product_category": {
+        "id": "86778553-dcfa-4b80-b56c-110c74d3ba7f",
+        "name": "Drama|Thriller"
+      }
+    },
+    {
+      "id": "f11fb7db-0c4e-4762-864d-64e0cf065588",
+      "name": "Lady Killer",
+      "product_category": {
+        "id": "b2ab1e76-bee9-4988-9995-21f2a46e3d21",
+        "name": "Comedy|Crime"
+      }
+    },
+    {
+      "id": "c3f4d90f-9641-4c64-bf0a-4aab8832eaaf",
+      "name": "Shipping News, The",
+      "product_category": {
+        "id": "648fb4b9-7de9-4f04-843e-683d01695be8",
+        "name": "Drama"
+      }
+    },
+    {
+      "id": "1f0f6920-5d27-4393-91cb-4471b95bc0d5",
+      "name": "Mary Shelley's Frankenstein (Frankenstein)",
+      "product_category": {
+        "id": "cf0a5044-dc23-4efc-9225-33a95b6c8588",
+        "name": "Drama|Horror|Sci-Fi"
+      }
+    },
+    {
+      "id": "d59c673a-9968-4a68-af45-0229e615a13c",
+      "name": "Cheerleader Massacre",
+      "product_category": {
+        "id": "2408da97-71e6-4f17-aac7-70512270a700",
+        "name": "Horror|Thriller"
+      }
+    },
+    {
+      "id": "fd892ee3-72f8-4780-ba6a-9f7334fcc340",
+      "name": "City of Ghosts",
+      "product_category": {
+        "id": "12c73556-35d0-4400-a8f9-272f08b93ee7",
+        "name": "Crime|Drama|Thriller"
+      }
+    },
+    {
+      "id": "10985afc-e913-4fa8-bbbb-98fe85117219",
+      "name": "Replacement Killers, The",
+      "product_category": {
+        "id": "f2d4cc28-e2e6-4004-a9fc-ca06c4a52cc3",
+        "name": "Action|Crime|Thriller"
+      }
+    },
+    {
+      "id": "fcc99bbf-5c17-43ff-b7be-09c955ec9492",
+      "name": "Obvious Child",
+      "product_category": {
+        "id": "11f17e54-6a83-4bcb-880b-08b958426619",
+        "name": "Comedy|Romance"
+      }
+    },
+    {
+      "id": "98291317-165b-48e7-895f-cfb2bc6b5e63",
+      "name": "That Championship Season",
+      "product_category": {
+        "id": "329f2b8f-265e-4222-a6aa-2b53eea4ed0c",
+        "name": "Drama"
+      }
+    },
+    {
+      "id": "df02fbc2-4eb0-425d-a99d-eb5ade8baaec",
+      "name": "Velocity of Gary, The",
+      "product_category": {
+        "id": "0ebcb72f-ae70-4449-aa8e-dc36d1311f44",
+        "name": "Comedy|Romance"
+      }
+    },
+    {
+      "id": "61985549-e9a7-4b35-835d-401621fcbfa4",
+      "name": "Intimate Relations",
+      "product_category": {
+        "id": "102b1b45-8b86-4a24-8b85-7316f83ad1ab",
+        "name": "Comedy"
+      }
+    },
+    {
+      "id": "9076219a-4796-4db1-b398-dd06a4211704",
+      "name": "Recess: School's Out",
+      "product_category": {
+        "id": "58527158-63f6-4645-a9bd-c030541886a1",
+        "name": "Animation|Children"
+      }
+    },
+    {
+      "id": "f811d6fe-358c-46b0-ab56-de199a6465d5",
+      "name": "Kind Hearts and Coronets",
+      "product_category": {
+        "id": "02b9c632-4603-41e0-bb33-3aa3db002567",
+        "name": "Comedy|Drama"
+      }
+    },
+    {
+      "id": "1f5cae14-4473-4ac4-b178-387b4f32b336",
+      "name": "Crockdale",
+      "product_category": {
+        "id": "d9f5bb97-e95e-42c6-b9dc-f967c1731c4e",
+        "name": "Drama"
+      }
+    },
+    {
+      "id": "1ce3a8f3-a954-4f3c-be04-aea41d81f6f7",
+      "name": "Master and Commander: The Far Side of the World",
+      "product_category": {
+        "id": "ef356738-0f58-4157-8bc0-6cdc282aaa63",
+        "name": "Adventure|Drama|War"
+      }
+    },
+    {
+      "id": "7d098cbb-1cce-4d1b-ba87-6662308c06ed",
+      "name": "Drunken Tai Chi (Siu taai gik)",
+      "product_category": {
+        "id": "33ed565c-d5d0-4e82-af83-f68c5ab5e4ca",
+        "name": "Action|Comedy"
+      }
+    },
+    {
+      "id": "951e19fa-accc-471b-b0f4-af1b14279400",
+      "name": "Intermission",
+      "product_category": {
+        "id": "9af77ea5-2259-49bb-a545-449fbb88d01b",
+        "name": "Comedy|Crime|Drama"
+      }
+    }
+  ],
   "product-category": [
     {
       "id": 1,
-      "name": "testingasd",
+      "name": "lores",
       "min_temperature": 64.84,
       "max_temperature": 94.64
     },

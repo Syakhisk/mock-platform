@@ -107,6 +107,10 @@ async function getRaw(req, query) {
 //   return res.sendStatus(500);
 // });
 
+// server.get("/product-category/:id", (req, res) => {
+//   return res.sendStatus(500);
+// });
+
 // server.post("/product-category", (req, res) => {
 //   return res.status(400).send({
 //     message: "validation error",
