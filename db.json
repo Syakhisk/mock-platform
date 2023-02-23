@@ -282,5 +282,68 @@
       "min_temperature": 82.61,
       "max_temperature": 1.03
     }
+  ],
+  "unit-of-measurement": [
+  {
+    "id": 1,
+    "name": "Hestia"
+  }, {
+    "id": 2,
+    "name": "Dulcinea"
+  }, {
+    "id": 3,
+    "name": "Tremayne"
+  }, {
+    "id": 4,
+    "name": "Talyah"
+  }, {
+    "id": 5,
+    "name": "Stanford"
+  }, {
+    "id": 6,
+    "name": "Jordana"
+  }, {
+    "id": 7,
+    "name": "Issy"
+  }, {
+    "id": 8,
+    "name": "Nadya"
+  }, {
+    "id": 9,
+    "name": "Kalie"
+  }, {
+    "id": 10,
+    "name": "Janeczka"
+  }, {
+    "id": 11,
+    "name": "Crystal"
+  }, {
+    "id": 12,
+    "name": "Rachele"
+  }, {
+    "id": 13,
+    "name": "Dicky"
+  }, {
+    "id": 14,
+    "name": "Baxy"
+  }, {
+    "id": 15,
+    "name": "Damaris"
+  }, {
+    "id": 16,
+    "name": "Norina"
+  }, {
+    "id": 17,
+    "name": "Thibaut"
+  }, {
+    "id": 18,
+    "name": "Cairistiona"
+  }, {
+    "id": 19,
+    "name": "Nap"
+  }, {
+    "id": 20,
+    "name": "Venita"
+  }
   ]
 }
