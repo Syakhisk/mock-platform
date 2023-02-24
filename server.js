@@ -12,12 +12,12 @@ server.use(middlewares);
 // Custom middleware (convert our query params to json-server query params)
 server.use((req, res, next) => {
   if (req.headers["internal"]) return next();
-  console.log('req.query',req.query);
+  console.log("req.query", req.query);
   const mappings = {
     limit: "_limit",
     page: "_page",
     search: "q",
-    sort: "_sort"
+    sorts: "_sort",
   };
 
   const defaults = {
@@ -26,12 +26,13 @@ server.use((req, res, next) => {
   };
 
   for (let key in mappings) {
-
     // map query params
-    if(key === 'sort' && req.query['sort']) {
-      const splitted = req.query['sort'].split(' ')
-      req.query[mappings[key]] = splitted[0] ?? defaults[key]
-      req.query['_order'] = splitted[1] ?? defaults[key]
+    if (key === "sorts" && req.query["sorts"]) {
+      // Multiple sort would not work, will use last sort element instead
+      const sort = req.query["sorts"].pop();
+      const split = sort.split(" ");
+      req.query["_sort"] = split[0] ?? defaults[key];
+      req.query["_order"] = split[1] ?? defaults[key];
     } else {
       req.query[mappings[key]] = req.query[key] ?? defaults[key];
     }
