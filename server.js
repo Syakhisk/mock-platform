@@ -10,7 +10,7 @@ const PORT = process.env["PORT"] || 3000;
 server.use(middlewares);
 
 // Custom middleware (convert our query params to json-server query params)
-server.use((req, res, next) => {
+server.use(async (req, res, next) => {
   if (req.headers["internal"]) return next();
   console.log("req.query", req.query);
   const mappings = {
@@ -45,6 +45,24 @@ server.use((req, res, next) => {
     query: { ...req.query },
     resourceful: req.path.split("/").length <= 2 && req.method == "GET",
   };
+
+  // if (req.method == "POST" && req.path == "/product-type") {
+  // const product_category_id = req.body?.data?.product_category_id;
+  // console.log(req.protocol)
+  // delete req.body.data.product_category_id;
+
+  // let _req = {...req};
+  // _req.path = `${req.path}/${product_category_id}`;
+
+  // const raw = await getRaw(_req);
+
+  // const raw = await getRaw({
+  //   ...req,
+  //   path: ,
+  // });
+
+  // console.log({ raw });
+  // }
 
   next();
 });

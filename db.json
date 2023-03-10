@@ -2,10 +2,12 @@
   "product-type": [
     {
       "id": "bf0a9d15-c54d-42fe-82c6-cab89c39f68e",
-      "name": "Fourth State, The (Die vierte Macht)",
+      "name": "asd",
       "product_category": {
-        "id": "64b58f2a-e7c0-4873-8005-c86932406efe",
-        "name": "Cygnus buccinator"
+        "id": "6eebb7a1-309e-4c03-b697-5312d692fdfb",
+        "name": "Vulpes cinereoargenteus",
+        "min_temperature": 87.9,
+        "max_temperature": 2.14
       }
     },
     {
@@ -159,14 +161,79 @@
         "id": "5e596eac-d92a-4b82-9b94-4c7001834bac",
         "name": "Dendrocitta vagabunda"
       }
+    },
+    {
+      "id": "cVf7u-0",
+      "name": false,
+      "product_category_id": false
+    },
+    {
+      "id": "wmbub7l",
+      "name": "asd",
+      "product_category_id": "a2ccf738-b5c8-4fea-ab76-8036f223b3fb"
+    },
+    {
+      "id": "8r5h3NX",
+      "name": "klasjdaslkdjaskldjakldjslkd",
+      "product_category_id": "a2ccf738-b5c8-4fea-ab76-8036f223b3fb"
+    },
+    {
+      "id": "u0ROh2Y",
+      "name": "kjlasjd",
+      "product_category_id": "a2ccf738-b5c8-4fea-ab76-8036f223b3fb"
+    },
+    {
+      "id": "uIjSgCh",
+      "name": "asdasdf",
+      "product_category_id": "a2ccf738-b5c8-4fea-ab76-8036f223b3fb"
+    },
+    {
+      "id": "X8MrvGY",
+      "name": "asd",
+      "product_category_id": "6eebb7a1-309e-4c03-b697-5312d692fdfb"
+    },
+    {
+      "id": "g5sLxa8",
+      "name": "asdasf2",
+      "product_category_id": "a2ccf738-b5c8-4fea-ab76-8036f223b3fb"
+    },
+    {
+      "id": "75dHVor",
+      "name": "asd",
+      "product_category_id": "51b7f5cd-a1e3-45e5-8e2b-25c1b7680331"
+    },
+    {
+      "id": "UYahYHW",
+      "name": "asd",
+      "product_category_id": "a2ccf738-b5c8-4fea-ab76-8036f223b3fb"
+    },
+    {
+      "id": "HdS9Pwe",
+      "name": "asd",
+      "product_category_id": "6eebb7a1-309e-4c03-b697-5312d692fdfb"
+    },
+    {
+      "name": "LSDJKLDSJKLSDJLKSDJKLSDJKLSDJKL",
+      "product_category_id": "51b7f5cd-a1e3-45e5-8e2b-25c1b7680331",
+      "id": "8AQ2i3-"
+    },
+    {
+      "name": "udin",
+      "product_category_id": "51b7f5cd-a1e3-45e5-8e2b-25c1b7680331",
+      "id": "yqE5H7S"
+    },
+    {
+      "name": "udin",
+      "product_category_id": "51b7f5cd-a1e3-45e5-8e2b-25c1b7680331",
+      "id": "ECxmcEl"
     }
   ],
   "product-category": [
     {
       "id": "6eebb7a1-309e-4c03-b697-5312d692fdfb",
-      "name": "Vulpes cinereoargenteus",
+      "name": "Vulpes",
       "min_temperature": 87.9,
-      "max_temperature": 2.14
+      "max_temperature": null
     },
     {
       "id": "a2ccf738-b5c8-4fea-ab76-8036f223b3fb",
@@ -281,6 +348,210 @@
       "name": "Dendrocygna viduata",
       "min_temperature": 79.95,
       "max_temperature": 11.33
+    },
+    {
+      "id": "_yBRh4_",
+      "name": "ASD",
+      "min_temperature": 0,
+      "max_temperature": 0
+    },
+    {
+      "id": "qWcPqtB",
+      "name": "bismilah",
+      "min_temperature": null,
+      "max_temperature": null
+    },
+    {
+      "id": "ub560ah",
+      "name": "asdf",
+      "min_temperature": 0,
+      "max_temperature": 0
+    },
+    {
+      "id": "E1z_L7a",
+      "name": "123",
+      "min_temperature": 0,
+      "max_temperature": 0
+    },
+    {
+      "id": "wqWsl9n",
+      "name": "asd",
+      "min_temperature": null,
+      "max_temperature": null
+    },
+    {
+      "id": "pTK-KrQ",
+      "name": "asldajsdkl",
+      "min_temperature": 0,
+      "max_temperature": 0
+    },
+    {
+      "id": "9ONmAMx",
+      "name": "12312312",
+      "min_temperature": 0,
+      "max_temperature": 0
+    },
+    {
+      "id": "5gGqXIJ",
+      "name": "12312312312323",
+      "min_temperature": 0,
+      "max_temperature": 0
+    },
+    {
+      "id": "iQW1lEg",
+      "name": "123",
+      "min_temperature": null,
+      "max_temperature": null
+    },
+    {
+      "id": "aDt5UaR",
+      "name": "asd123",
+      "min_temperature": 0,
+      "max_temperature": 0
+    },
+    {
+      "id": "JOlqKc-",
+      "name": "asd",
+      "min_temperature": null,
+      "max_temperature": null
+    },
+    {
+      "id": "_BzeR94",
+      "name": "123a",
+      "min_temperature": null,
+      "max_temperature": null
+    },
+    {
+      "id": "ef-dzzQ",
+      "name": "123",
+      "min_temperature": 0,
+      "max_temperature": null
+    },
+    {
+      "id": "M6ecPMG",
+      "name": "halo",
+      "min_temperature": null,
+      "max_temperature": null
+    },
+    {
+      "id": "Ud7AdZU",
+      "name": "asdasdsasda",
+      "min_temperature": null,
+      "max_temperature": null
+    },
+    {
+      "id": "DHVjTeE",
+      "name": "poipoi",
+      "min_temperature": 0,
+      "max_temperature": 0
+    },
+    {
+      "id": "wm3_CiC",
+      "name": "asda",
+      "min_temperature": 0,
+      "max_temperature": 0
+    },
+    {
+      "id": "a5wlpct",
+      "name": "asd",
+      "min_temperature": 0,
+      "max_temperature": 0
+    },
+    {
+      "id": "u6qqaa7",
+      "name": "asd",
+      "min_temperature": null,
+      "max_temperature": null
+    },
+    {
+      "id": "yTQO0e7",
+      "name": "asd",
+      "min_temperature": null,
+      "max_temperature": null
+    },
+    {
+      "id": "UYoRkmD",
+      "name": "jkljlk",
+      "min_temperature": null,
+      "max_temperature": null
+    },
+    {
+      "id": "ixfyoZr",
+      "name": "123ads",
+      "min_temperature": 11,
+      "max_temperature": 11
+    },
+    {
+      "id": "1O3CAAX",
+      "name": "a123",
+      "min_temperature": 11,
+      "max_temperature": 11
+    },
+    {
+      "id": "vLRfrIX",
+      "name": "contoh",
+      "min_temperature": null,
+      "max_temperature": null
+    },
+    {
+      "id": "zalwqiJ",
+      "name": "contoh 1",
+      "min_temperature": null,
+      "max_temperature": null
+    },
+    {
+      "id": "aYsM7Bb",
+      "name": "contoh 2",
+      "min_temperature": null,
+      "max_temperature": null
+    },
+    {
+      "id": "Sq_zYu3",
+      "name": "asdkaj",
+      "min_temperature": null,
+      "max_temperature": null
+    },
+    {
+      "id": "Aw4KgWJ",
+      "name": "asdasasd",
+      "min_temperature": 0,
+      "max_temperature": 0
+    },
+    {
+      "id": "Xt9HR3D",
+      "name": "asdadasd",
+      "min_temperature": 0,
+      "max_temperature": null
+    },
+    {
+      "id": "NB0FZqZ",
+      "name": "asdasd",
+      "min_temperature": null,
+      "max_temperature": null
+    },
+    {
+      "id": "fx6aZs8",
+      "name": "123123dasjldkjdkl",
+      "min_temperature": 0,
+      "max_temperature": 0
+    },
+    {
+      "id": "Bq7lwhL",
+      "name": "dfghjkl",
+      "min_temperature": 0,
+      "max_temperature": 0
+    },
+    {
+      "id": "0474Smb",
+      "name": "adsasdasda",
+      "min_temperature": 0,
+      "max_temperature": 0
+    },
+    {
+      "id": "GIcVPH6",
+      "name": "12313123123",
+      "min_temperature": null,
+      "max_temperature": 0
     }
   ],
   "unit-of-measurement": [
