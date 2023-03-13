@@ -1,0 +1,124 @@
+{
+  "industry-category": [
+    {
+      "id": 1,
+      "name": "Music"
+    },
+    {
+      "id": 2,
+      "name": "Automotive"
+    },
+    {
+      "id": 3,
+      "name": "Shoes"
+    },
+    {
+      "id": 4,
+      "name": "Clothing"
+    },
+    {
+      "id": 5,
+      "name": "Clothing"
+    },
+    {
+      "id": 6,
+      "name": "Health"
+    },
+    {
+      "id": 7,
+      "name": "Grocery"
+    },
+    {
+      "id": 8,
+      "name": "Grocery"
+    },
+    {
+      "id": 9,
+      "name": "Computers"
+    },
+    {
+      "id": 10,
+      "name": "Kids"
+    },
+    {
+      "id": 11,
+      "name": "Sports"
+    },
+    {
+      "id": 12,
+      "name": "Sports"
+    },
+    {
+      "id": 13,
+      "name": "Tools"
+    },
+    {
+      "id": 14,
+      "name": "Industrial"
+    },
+    {
+      "id": 15,
+      "name": "Computers"
+    },
+    {
+      "id": 16,
+      "name": "Kids"
+    },
+    {
+      "id": 17,
+      "name": "Beauty"
+    },
+    {
+      "id": 18,
+      "name": "Games"
+    },
+    {
+      "id": 19,
+      "name": "Games"
+    },
+    {
+      "id": 20,
+      "name": "Beauty"
+    },
+    {
+      "id": 21,
+      "name": "Industrial"
+    },
+    {
+      "id": 22,
+      "name": "Movies"
+    },
+    {
+      "id": 23,
+      "name": "Home"
+    },
+    {
+      "id": 24,
+      "name": "Health"
+    },
+    {
+      "id": 25,
+      "name": "Movies"
+    },
+    {
+      "id": 26,
+      "name": "Baby"
+    },
+    {
+      "id": 27,
+      "name": "Health"
+    },
+    {
+      "id": 28,
+      "name": "Outdoors"
+    },
+    {
+      "id": 29,
+      "name": "Books"
+    },
+    {
+      "id": 30,
+      "name": "Baby"
+    }
+  ]
+}

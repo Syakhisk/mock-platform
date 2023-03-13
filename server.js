@@ -1,8 +1,9 @@
 import jsonServer from "json-server";
 import axios from "axios";
+import datasets from "./datasets/index.js";
 
 const server = jsonServer.create();
-const router = jsonServer.router("db.json");
+const router = jsonServer.router(datasets);
 const middlewares = jsonServer.defaults();
 
 const PORT = process.env["PORT"] || 3000;

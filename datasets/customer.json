@@ -1,0 +1,394 @@
+{
+  "customer": [
+    {
+      "id": 1,
+      "name": "Ricky De Maine",
+      "marketing-user": {
+        "id": "0828b2cb-a799-4095-a18e-d5c2c4d62d1d",
+        "name": "Dennie Stone Fewings"
+      },
+      "npwp": "32.808.035.7-575.699",
+      "industry-category": {
+        "id": 5,
+        "name": "Garden"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Carolan Lidington",
+      "marketing-user": {
+        "id": "60f79461-d82d-4164-8ac0-be4775348e33",
+        "name": "Ali Nial"
+      },
+      "npwp": "81.524.438.6-061.724",
+      "industry-category": {
+        "id": 20,
+        "name": "Books"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Rosalia Keymar",
+      "marketing-user": {
+        "id": "5b21f236-c4d6-4a56-9e07-9431e064d4b8",
+        "name": "Flor Guilford"
+      },
+      "npwp": "02.080.739.8-150.551",
+      "industry-category": {
+        "id": 9,
+        "name": "Kids"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Elizabet Massel",
+      "marketing-user": {
+        "id": "8ac27692-d441-4690-8eed-ae91cd280f23",
+        "name": "Richie Hartland"
+      },
+      "npwp": "36.409.771.6-750.023",
+      "industry-category": {
+        "id": 20,
+        "name": "Books"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Martie Tolfrey",
+      "marketing-user": {
+        "id": "e11e9668-29a4-497e-b803-6610f5e72e66",
+        "name": "Lucille Graundisson"
+      },
+      "npwp": "16.406.205.5-981.381",
+      "industry-category": {
+        "id": 2,
+        "name": "Games"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Durward Briereton",
+      "marketing-user": {
+        "id": "aa38d7e5-c5a9-4eb5-a6ef-60edbdb11b70",
+        "name": "Westbrook Heathfield"
+      },
+      "npwp": "72.602.884.3-371.633",
+      "industry-category": {
+        "id": 11,
+        "name": "Kids"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Andie Hovert",
+      "marketing-user": {
+        "id": "95009921-44ea-47ed-be6a-8fc39eda5bbe",
+        "name": "Alon McGrowther"
+      },
+      "npwp": "33.438.518.7-253.742",
+      "industry-category": {
+        "id": 17,
+        "name": "Home"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Halette Willowby",
+      "marketing-user": {
+        "id": "c8ab641d-143a-45e8-ba56-45dd96f70680",
+        "name": "Syman Tomisch"
+      },
+      "npwp": "49.482.544.3-459.904",
+      "industry-category": {
+        "id": 9,
+        "name": "Kids"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Lura Gabe",
+      "marketing-user": {
+        "id": "13d97302-92c8-47fa-90d5-560dbb611572",
+        "name": "Cicily Hedylstone"
+      },
+      "npwp": "27.185.574.2-271.274",
+      "industry-category": {
+        "id": 16,
+        "name": "Grocery"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Maggi Piggins",
+      "marketing-user": {
+        "id": "f20ebeba-1166-4ad7-8003-c914ef459b6b",
+        "name": "Wenonah Beneteau"
+      },
+      "npwp": "90.617.155.1-691.585",
+      "industry-category": {
+        "id": 29,
+        "name": "Home"
+      }
+    },
+    {
+      "id": 11,
+      "name": "Pavel Blaase",
+      "marketing-user": {
+        "id": "6c373d14-ba90-46f5-a647-67cedf4f1668",
+        "name": "Jordanna Tabour"
+      },
+      "npwp": "93.950.182.8-496.739",
+      "industry-category": {
+        "id": 28,
+        "name": "Books"
+      }
+    },
+    {
+      "id": 12,
+      "name": "Germayne Duckitt",
+      "marketing-user": {
+        "id": "6f62647f-6f5c-47bd-ad38-8f819d4d82bc",
+        "name": "Gabriel Scanderet"
+      },
+      "npwp": "27.268.136.7-579.172",
+      "industry-category": {
+        "id": 16,
+        "name": "Grocery"
+      }
+    },
+    {
+      "id": 13,
+      "name": "Lisa Grannell",
+      "marketing-user": {
+        "id": "269706e0-b91d-42cd-a53a-bd388ffb4535",
+        "name": "Olva Mathieson"
+      },
+      "npwp": "08.897.072.3-859.864",
+      "industry-category": {
+        "id": 14,
+        "name": "Jewelry"
+      }
+    },
+    {
+      "id": 14,
+      "name": "Lisette Schollick",
+      "marketing-user": {
+        "id": "8467b982-0379-4295-a355-1bd7866b9486",
+        "name": "Hillie Paeckmeyer"
+      },
+      "npwp": "52.105.977.6-035.387",
+      "industry-category": {
+        "id": 14,
+        "name": "Jewelry"
+      }
+    },
+    {
+      "id": 15,
+      "name": "Adham Ridgway",
+      "marketing-user": {
+        "id": "aa7994f2-b8b4-400e-b4d2-fd7ed1f6d1f2",
+        "name": "Mellisa Pigney"
+      },
+      "npwp": "24.480.495.9-881.151",
+      "industry-category": {
+        "id": 30,
+        "name": "Industrial"
+      }
+    },
+    {
+      "id": 16,
+      "name": "Tarah Greenrodd",
+      "marketing-user": {
+        "id": "342c0a9a-b364-48a3-8523-89891b67fb95",
+        "name": "Jazmin Kopisch"
+      },
+      "npwp": "35.307.713.7-605.783",
+      "industry-category": {
+        "id": 22,
+        "name": "Clothing"
+      }
+    },
+    {
+      "id": 17,
+      "name": "Deanne Stredwick",
+      "marketing-user": {
+        "id": "e46f0086-4069-485a-b189-5aa41a8ec830",
+        "name": "Erinna Brant"
+      },
+      "npwp": "93.274.610.8-635.433",
+      "industry-category": {
+        "id": 20,
+        "name": "Books"
+      }
+    },
+    {
+      "id": 18,
+      "name": "Modesty Turban",
+      "marketing-user": {
+        "id": "f9a47b5a-2d12-47a5-a4c5-d3a51d935875",
+        "name": "Bridie Pleager"
+      },
+      "npwp": "62.819.423.8-722.230",
+      "industry-category": {
+        "id": 9,
+        "name": "Kids"
+      }
+    },
+    {
+      "id": 19,
+      "name": "Raquel Gagie",
+      "marketing-user": {
+        "id": "51a2ccb3-f1cd-401c-b092-9152b7071009",
+        "name": "Leopold Besantie"
+      },
+      "npwp": "54.488.001.7-389.973",
+      "industry-category": {
+        "id": 29,
+        "name": "Home"
+      }
+    },
+    {
+      "id": 20,
+      "name": "Cordula Penning",
+      "marketing-user": {
+        "id": "b437c26e-884d-426b-9e0a-2d84263f4555",
+        "name": "Nichols Skelly"
+      },
+      "npwp": "68.160.167.7-117.081",
+      "industry-category": {
+        "id": 24,
+        "name": "Books"
+      }
+    },
+    {
+      "id": 21,
+      "name": "Gwennie Luddy",
+      "marketing-user": {
+        "id": "c8ab641d-143a-45e8-ba56-45dd96f70680",
+        "name": "Syman Tomisch"
+      },
+      "npwp": "08.543.722.6-409.087",
+      "industry-category": {
+        "id": 15,
+        "name": "Industrial"
+      }
+    },
+    {
+      "id": 22,
+      "name": "Selina Clogg",
+      "marketing-user": {
+        "id": "8467b982-0379-4295-a355-1bd7866b9486",
+        "name": "Hillie Paeckmeyer"
+      },
+      "npwp": "13.576.596.2-615.083",
+      "industry-category": {
+        "id": 5,
+        "name": "Garden"
+      }
+    },
+    {
+      "id": 23,
+      "name": "Alexandros Gulliford",
+      "marketing-user": {
+        "id": "5b21f236-c4d6-4a56-9e07-9431e064d4b8",
+        "name": "Flor Guilford"
+      },
+      "npwp": "88.860.279.0-640.391",
+      "industry-category": {
+        "id": 23,
+        "name": "Baby"
+      }
+    },
+    {
+      "id": 24,
+      "name": "Buiron Koba",
+      "marketing-user": {
+        "id": "269706e0-b91d-42cd-a53a-bd388ffb4535",
+        "name": "Olva Mathieson"
+      },
+      "npwp": "85.752.783.7-246.366",
+      "industry-category": {
+        "id": 23,
+        "name": "Baby"
+      }
+    },
+    {
+      "id": 25,
+      "name": "Nikola Ladley",
+      "marketing-user": {
+        "id": "e11e9668-29a4-497e-b803-6610f5e72e66",
+        "name": "Lucille Graundisson"
+      },
+      "npwp": "68.545.623.9-691.796",
+      "industry-category": {
+        "id": 22,
+        "name": "Clothing"
+      }
+    },
+    {
+      "id": 26,
+      "name": "Rori Bog",
+      "marketing-user": {
+        "id": "51a2ccb3-f1cd-401c-b092-9152b7071009",
+        "name": "Leopold Besantie"
+      },
+      "npwp": "79.201.380.0-764.774",
+      "industry-category": {
+        "id": 7,
+        "name": "Computers"
+      }
+    },
+    {
+      "id": 27,
+      "name": "Melicent Meyer",
+      "marketing-user": {
+        "id": "e46f0086-4069-485a-b189-5aa41a8ec830",
+        "name": "Erinna Brant"
+      },
+      "npwp": "69.440.747.2-328.886",
+      "industry-category": {
+        "id": 28,
+        "name": "Books"
+      }
+    },
+    {
+      "id": 28,
+      "name": "Arlene Hails",
+      "marketing-user": {
+        "id": "13d97302-92c8-47fa-90d5-560dbb611572",
+        "name": "Cicily Hedylstone"
+      },
+      "npwp": "19.889.983.7-546.736",
+      "industry-category": {
+        "id": 5,
+        "name": "Garden"
+      }
+    },
+    {
+      "id": 29,
+      "name": "Zebulon O'Flaherty",
+      "marketing-user": {
+        "id": "f20ebeba-1166-4ad7-8003-c914ef459b6b",
+        "name": "Wenonah Beneteau"
+      },
+      "npwp": "99.748.209.6-466.669",
+      "industry-category": {
+        "id": 16,
+        "name": "Grocery"
+      }
+    },
+    {
+      "id": 30,
+      "name": "Fredra Cassam",
+      "marketing-user": {
+        "id": "aa38d7e5-c5a9-4eb5-a6ef-60edbdb11b70",
+        "name": "Westbrook Heathfield"
+      },
+      "npwp": "75.155.267.8-054.892",
+      "industry-category": {
+        "id": 27,
+        "name": "Grocery"
+      }
+    }
+  ]
+}

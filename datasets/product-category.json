@@ -1,0 +1,328 @@
+{
+  "product-category": [
+    {
+      "id": "6eebb7a1-309e-4c03-b697-5312d692fdfb",
+      "name": "Vulpes",
+      "min_temperature": 87.9,
+      "max_temperature": null
+    },
+    {
+      "id": "a2ccf738-b5c8-4fea-ab76-8036f223b3fb",
+      "name": "Larus dominicanus",
+      "min_temperature": 8.28,
+      "max_temperature": 19.95
+    },
+    {
+      "id": "51b7f5cd-a1e3-45e5-8e2b-25c1b7680331",
+      "name": "Mazama americana",
+      "min_temperature": 68.46,
+      "max_temperature": 41.23
+    },
+    {
+      "id": "392af99c-509c-4dcc-b933-04d2fe53be2e",
+      "name": "Tyto novaehollandiae",
+      "min_temperature": 70.42,
+      "max_temperature": 66.98
+    },
+    {
+      "id": "853d31b8-c6d5-440a-85da-83897ce48800",
+      "name": "Ploceus rubiginosus",
+      "min_temperature": 82.31,
+      "max_temperature": 47.95
+    },
+    {
+      "id": "82b5a2dc-9cc3-4582-a816-0647ba8f36ca",
+      "name": "Gekko gecko",
+      "min_temperature": 49.22,
+      "max_temperature": 19.83
+    },
+    {
+      "id": "1bccc039-67c0-4eef-a273-f795a8e87d51",
+      "name": "Hydrochoerus hydrochaeris",
+      "min_temperature": 26.95,
+      "max_temperature": 41.57
+    },
+    {
+      "id": "bec8c940-4fe5-47f1-8651-9430ae27d3e4",
+      "name": "Ratufa indica",
+      "min_temperature": 67.31,
+      "max_temperature": 82.29
+    },
+    {
+      "id": "5e596eac-d92a-4b82-9b94-4c7001834bac",
+      "name": "Dendrocitta vagabunda",
+      "min_temperature": 22.37,
+      "max_temperature": 68.86
+    },
+    {
+      "id": "91274c34-17df-4dfe-83f8-4d43b0d54a45",
+      "name": "Marmota flaviventris",
+      "min_temperature": 48.27,
+      "max_temperature": 31.54
+    },
+    {
+      "id": "0db12298-62ca-4ba0-85c4-f0c1b11f936a",
+      "name": "Lamprotornis nitens",
+      "min_temperature": 8.81,
+      "max_temperature": 21.43
+    },
+    {
+      "id": "8d24f2bd-698a-4411-8f30-b14ba5463cc9",
+      "name": "Perameles nasuta",
+      "min_temperature": 14.08,
+      "max_temperature": 10.96
+    },
+    {
+      "id": "bcb45fd0-3539-4a81-b73a-26b401396074",
+      "name": "Crotalus cerastes",
+      "min_temperature": 93.94,
+      "max_temperature": 21.78
+    },
+    {
+      "id": "806afdbf-d17d-41dc-acd8-e157b56dd84e",
+      "name": "Larus dominicanus",
+      "min_temperature": 6.56,
+      "max_temperature": 47.03
+    },
+    {
+      "id": "64b58f2a-e7c0-4873-8005-c86932406efe",
+      "name": "Cygnus buccinator",
+      "min_temperature": 18.12,
+      "max_temperature": 57.5
+    },
+    {
+      "id": "f026af7e-ea3e-497b-afc9-de8b3e8e18f5",
+      "name": "Nyctereutes procyonoides",
+      "min_temperature": 40.53,
+      "max_temperature": 48.14
+    },
+    {
+      "id": "d5d5dc0e-d721-4b1f-9a9b-d91b865bc3a1",
+      "name": "Crax sp.",
+      "min_temperature": 19.92,
+      "max_temperature": 95.91
+    },
+    {
+      "id": "2aa9b8f8-c114-4435-81bd-a90b84904844",
+      "name": "Phalacrocorax varius",
+      "min_temperature": 80.07,
+      "max_temperature": 28.69
+    },
+    {
+      "id": "89822c76-24e6-4099-a4a3-bd57ba968a96",
+      "name": "Crotaphytus collaris",
+      "min_temperature": 34.64,
+      "max_temperature": 73.9
+    },
+    {
+      "id": "8e7bb536-763b-433a-9ba8-79143349fdf9",
+      "name": "Dendrocygna viduata",
+      "min_temperature": 79.95,
+      "max_temperature": 11.33
+    },
+    {
+      "id": "_yBRh4_",
+      "name": "ASD",
+      "min_temperature": 0,
+      "max_temperature": 0
+    },
+    {
+      "id": "qWcPqtB",
+      "name": "bismilah",
+      "min_temperature": null,
+      "max_temperature": null
+    },
+    {
+      "id": "ub560ah",
+      "name": "asdf",
+      "min_temperature": 0,
+      "max_temperature": 0
+    },
+    {
+      "id": "E1z_L7a",
+      "name": "123",
+      "min_temperature": 0,
+      "max_temperature": 0
+    },
+    {
+      "id": "wqWsl9n",
+      "name": "asd",
+      "min_temperature": null,
+      "max_temperature": null
+    },
+    {
+      "id": "pTK-KrQ",
+      "name": "asldajsdkl",
+      "min_temperature": 0,
+      "max_temperature": 0
+    },
+    {
+      "id": "9ONmAMx",
+      "name": "12312312",
+      "min_temperature": 0,
+      "max_temperature": 0
+    },
+    {
+      "id": "5gGqXIJ",
+      "name": "12312312312323",
+      "min_temperature": 0,
+      "max_temperature": 0
+    },
+    {
+      "id": "iQW1lEg",
+      "name": "123",
+      "min_temperature": null,
+      "max_temperature": null
+    },
+    {
+      "id": "aDt5UaR",
+      "name": "asd123",
+      "min_temperature": 0,
+      "max_temperature": 0
+    },
+    {
+      "id": "JOlqKc-",
+      "name": "asd",
+      "min_temperature": null,
+      "max_temperature": null
+    },
+    {
+      "id": "_BzeR94",
+      "name": "123a",
+      "min_temperature": null,
+      "max_temperature": null
+    },
+    {
+      "id": "ef-dzzQ",
+      "name": "123",
+      "min_temperature": 0,
+      "max_temperature": null
+    },
+    {
+      "id": "M6ecPMG",
+      "name": "halo",
+      "min_temperature": null,
+      "max_temperature": null
+    },
+    {
+      "id": "Ud7AdZU",
+      "name": "asdasdsasda",
+      "min_temperature": null,
+      "max_temperature": null
+    },
+    {
+      "id": "DHVjTeE",
+      "name": "poipoi",
+      "min_temperature": 0,
+      "max_temperature": 0
+    },
+    {
+      "id": "wm3_CiC",
+      "name": "asda",
+      "min_temperature": 0,
+      "max_temperature": 0
+    },
+    {
+      "id": "a5wlpct",
+      "name": "asd",
+      "min_temperature": 0,
+      "max_temperature": 0
+    },
+    {
+      "id": "u6qqaa7",
+      "name": "asd",
+      "min_temperature": null,
+      "max_temperature": null
+    },
+    {
+      "id": "yTQO0e7",
+      "name": "asd",
+      "min_temperature": null,
+      "max_temperature": null
+    },
+    {
+      "id": "UYoRkmD",
+      "name": "jkljlk",
+      "min_temperature": null,
+      "max_temperature": null
+    },
+    {
+      "id": "ixfyoZr",
+      "name": "123ads",
+      "min_temperature": 11,
+      "max_temperature": 11
+    },
+    {
+      "id": "1O3CAAX",
+      "name": "a123",
+      "min_temperature": 11,
+      "max_temperature": 11
+    },
+    {
+      "id": "vLRfrIX",
+      "name": "contoh",
+      "min_temperature": null,
+      "max_temperature": null
+    },
+    {
+      "id": "zalwqiJ",
+      "name": "contoh 1",
+      "min_temperature": null,
+      "max_temperature": null
+    },
+    {
+      "id": "aYsM7Bb",
+      "name": "contoh 2",
+      "min_temperature": null,
+      "max_temperature": null
+    },
+    {
+      "id": "Sq_zYu3",
+      "name": "asdkaj",
+      "min_temperature": null,
+      "max_temperature": null
+    },
+    {
+      "id": "Aw4KgWJ",
+      "name": "asdasasd",
+      "min_temperature": 0,
+      "max_temperature": 0
+    },
+    {
+      "id": "Xt9HR3D",
+      "name": "asdadasd",
+      "min_temperature": 0,
+      "max_temperature": null
+    },
+    {
+      "id": "NB0FZqZ",
+      "name": "asdasd",
+      "min_temperature": null,
+      "max_temperature": null
+    },
+    {
+      "id": "fx6aZs8",
+      "name": "123123dasjldkjdkl",
+      "min_temperature": 0,
+      "max_temperature": 0
+    },
+    {
+      "id": "Bq7lwhL",
+      "name": "dfghjkl",
+      "min_temperature": 0,
+      "max_temperature": 0
+    },
+    {
+      "id": "0474Smb",
+      "name": "adsasdasda",
+      "min_temperature": 0,
+      "max_temperature": 0
+    },
+    {
+      "id": "GIcVPH6",
+      "name": "12313123123",
+      "min_temperature": null,
+      "max_temperature": 0
+    }
+  ]
+}
