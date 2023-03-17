@@ -1,6 +1,7 @@
 import jsonServer from "json-server";
 import axios from "axios";
 import { getDatasets } from "./datasets/index.js";
+import nestedRoute from "./middlewares/nestedRoute.js";
 
 const dataset = getDatasets();
 const server = jsonServer.create();
@@ -10,6 +11,9 @@ const middlewares = jsonServer.defaults();
 const PORT = process.env["PORT"] || 3000;
 
 server.use(middlewares);
+
+// Customer middleware to handle nested route
+server.use(nestedRoute)
 
 // Custom middleware (convert our query params to json-server query params)
 server.use(async (req, res, next) => {
@@ -120,8 +124,6 @@ async function getRaw(req, query) {
     },
   });
 
-  console.log(_res.data)
-
   return _res.data;
 }
 
@@ -143,6 +145,14 @@ async function getRaw(req, query) {
 //     },
 //   });
 // });
+
+// rewriter will skip resourceful
+// server.use(jsonServer.rewriter({
+//   '/customer/:customerId/contact/': '/contact/',
+//   '/customer/:customerId/contact/:id': '/contact/:id',
+//   '/customer/:customerId/delivery-note/': '/delivery-note/',
+//   '/customer/:customerId/delivery-note/:id': '/delivery-note/:id'
+// }))
 
 server.use(router);
 
