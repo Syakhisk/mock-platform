@@ -1,17 +1,26 @@
-import customer from "./customer.json" assert { type: "json" };
-import productType from "./product-type.json" assert { type: "json" };
-import productCategory from "./product-category.json" assert { type: "json" };
-import unitOfMeasurement from "./unit-of-measurement.json" assert { type: "json" };
-import marketingUser from "./marketing-user.json" assert { type: "json" };
-import industryCategory from "./industry-category.json" assert { type: "json" };
+import { readdirSync, readFileSync } from "node:fs";
+import * as path from "path";
+import { fileURLToPath } from "url";
 
-const datasets = {
-  ...customer,
-  ...productType,
-  ...productCategory,
-  ...unitOfMeasurement,
-  ...marketingUser,
-  ...industryCategory,
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+
+export const getDatasets = () => {
+  // get all files
+  const files = readdirSync(__dirname);
+
+  // filter only files with .json extension
+  // create an object with key {[fileNoExtension]: import(fileWithExtension)}
+  const dbs = files
+    .filter((file) => path.extname(file) === ".json")
+    .map((file) => JSON.parse(readFileSync(`${__dirname}/${file}`, "utf8")));
+
+  // if file doesn't have 'entity': []
+  // .map((file) => ({
+  //   [path.parse(file).name]: JSON.parse(
+  //     readFileSync(`${__dirname}/${file}`, "utf8")
+  //   ),
+  // }));
+
+  // merge array of object to a single object
+  return Object.assign({}, ...dbs);
 };
-
-export default datasets;

@@ -6,11 +6,11 @@
     },
     {
       "id": 2,
-      "name": "Automotive"
+      "name": "Games"
     },
     {
       "id": 3,
-      "name": "Shoes"
+      "name": "Baby"
     },
     {
       "id": 4,
@@ -18,107 +18,107 @@
     },
     {
       "id": 5,
-      "name": "Clothing"
+      "name": "Garden"
     },
     {
       "id": 6,
-      "name": "Health"
+      "name": "Grocery"
     },
     {
       "id": 7,
-      "name": "Grocery"
+      "name": "Computers"
     },
     {
       "id": 8,
-      "name": "Grocery"
+      "name": "Health"
     },
     {
       "id": 9,
-      "name": "Computers"
+      "name": "Kids"
     },
     {
       "id": 10,
-      "name": "Kids"
+      "name": "Electronics"
     },
     {
       "id": 11,
-      "name": "Sports"
-    },
-    {
-      "id": 12,
-      "name": "Sports"
-    },
-    {
-      "id": 13,
-      "name": "Tools"
-    },
-    {
-      "id": 14,
-      "name": "Industrial"
-    },
-    {
-      "id": 15,
-      "name": "Computers"
-    },
-    {
-      "id": 16,
       "name": "Kids"
     },
     {
-      "id": 17,
-      "name": "Beauty"
-    },
-    {
-      "id": 18,
-      "name": "Games"
-    },
-    {
-      "id": 19,
-      "name": "Games"
-    },
-    {
-      "id": 20,
-      "name": "Beauty"
-    },
-    {
-      "id": 21,
-      "name": "Industrial"
-    },
-    {
-      "id": 22,
-      "name": "Movies"
-    },
-    {
-      "id": 23,
-      "name": "Home"
-    },
-    {
-      "id": 24,
-      "name": "Health"
-    },
-    {
-      "id": 25,
-      "name": "Movies"
-    },
-    {
-      "id": 26,
-      "name": "Baby"
-    },
-    {
-      "id": 27,
-      "name": "Health"
-    },
-    {
-      "id": 28,
+      "id": 12,
       "name": "Outdoors"
     },
     {
-      "id": 29,
+      "id": 13,
+      "name": "Home"
+    },
+    {
+      "id": 14,
+      "name": "Jewelry"
+    },
+    {
+      "id": 15,
+      "name": "Industrial"
+    },
+    {
+      "id": 16,
+      "name": "Grocery"
+    },
+    {
+      "id": 17,
+      "name": "Home"
+    },
+    {
+      "id": 18,
+      "name": "Automotive"
+    },
+    {
+      "id": 19,
+      "name": "Computers"
+    },
+    {
+      "id": 20,
       "name": "Books"
     },
     {
-      "id": 30,
+      "id": 21,
+      "name": "Tools"
+    },
+    {
+      "id": 22,
+      "name": "Clothing"
+    },
+    {
+      "id": 23,
       "name": "Baby"
+    },
+    {
+      "id": 24,
+      "name": "Books"
+    },
+    {
+      "id": 25,
+      "name": "Garden"
+    },
+    {
+      "id": 26,
+      "name": "Grocery"
+    },
+    {
+      "id": 27,
+      "name": "Grocery"
+    },
+    {
+      "id": 28,
+      "name": "Books"
+    },
+    {
+      "id": 29,
+      "name": "Home"
+    },
+    {
+      "id": 30,
+      "name": "Industrial"
     }
   ]
 }

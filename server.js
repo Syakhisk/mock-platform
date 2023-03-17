@@ -1,9 +1,10 @@
 import jsonServer from "json-server";
 import axios from "axios";
-import datasets from "./datasets/index.js";
+import { getDatasets } from "./datasets/index.js";
 
+const dataset = getDatasets();
 const server = jsonServer.create();
-const router = jsonServer.router(datasets);
+const router = jsonServer.router(dataset);
 const middlewares = jsonServer.defaults();
 
 const PORT = process.env["PORT"] || 3000;
@@ -87,7 +88,7 @@ router.render = async (req, res) => {
 
   const totalCount = raw.length;
   const totalPage = Math.ceil(totalCount / Number(query._limit));
-  const ids = raw.map((i) => i.id);
+  const ids = Array.isArray(raw) ? raw.map((i) => i.id) : [];
 
   // add artificial delay
   await new Promise((resolve) => setTimeout(resolve, 500));
@@ -118,6 +119,8 @@ async function getRaw(req, query) {
       internal: true,
     },
   });
+
+  console.log(_res.data)
 
   return _res.data;
 }
