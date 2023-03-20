@@ -35,7 +35,10 @@ server.use(async (req, res, next) => {
     // map query params
     if (key === "sorts" && req.query["sorts"]) {
       // Multiple sort would not work, will use last sort element instead
-      const sort = req.query["sorts"].pop();
+      const sort = Array.isArray(req.query["sorts"])
+        ? req.query["sorts"].pop()
+        : req.query["sorts"];
+
       const split = sort.split(" ");
       req.query["_sort"] = split[0] ?? defaults[key];
       req.query["_order"] = split[1] ?? defaults[key];
@@ -50,7 +53,7 @@ server.use(async (req, res, next) => {
   req.meta = {
     query: { ...req.query },
     resourceful:
-      req.query['_resourceful'] ||
+      req.query["_resourceful"] ||
       (req.path.split("/").length <= 2 && req.method == "GET"),
   };
 
