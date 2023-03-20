@@ -1,7 +1,7 @@
 const nestedRouteMapping = {
-  "/customer/:customerId/delivery-note/": "/delivery-note/",
+  "/customer/:customerId/delivery-note": "/delivery-note",
   "/customer/:customerId/delivery-note/:id": "/delivery-note/:id",
-  "/customer/:customerId/contact/": "/contact/",
+  "/customer/:customerId/contact": "/contact",
   "/customer/:customerId/contact/:id": "/contact/:id",
 };
 
@@ -40,9 +40,17 @@ const nestedRoute = (req, res, next) => {
           }
         );
         const queryParams = req.query;
+
+        if (targetRoute.split("/").length <= 2) {
+          queryParams._resourceful = 1;
+        }
+
         const queryString = Object.keys(queryParams)
+          .filter((key) => queryParams[key])
           .map((key) => `${key}=${queryParams[key]}`)
           .join("&");
+
+        console.log(`redirected to ${targetRoute}?${queryString}`);
         res.redirect(`${targetRoute}?${queryString}`);
         return;
       }

@@ -13,7 +13,7 @@ const PORT = process.env["PORT"] || 3000;
 server.use(middlewares);
 
 // Customer middleware to handle nested route
-server.use(nestedRoute)
+server.use(nestedRoute);
 
 // Custom middleware (convert our query params to json-server query params)
 server.use(async (req, res, next) => {
@@ -49,7 +49,9 @@ server.use(async (req, res, next) => {
 
   req.meta = {
     query: { ...req.query },
-    resourceful: req.path.split("/").length <= 2 && req.method == "GET",
+    resourceful:
+      req.query['_resourceful'] ||
+      (req.path.split("/").length <= 2 && req.method == "GET"),
   };
 
   // if (req.method == "POST" && req.path == "/product-type") {
@@ -77,7 +79,6 @@ server.use(async (req, res, next) => {
 router.render = async (req, res) => {
   // if 'internal' headers present, return raw data
   if (req.headers["internal"]) return res.jsonp(res.locals.data);
-
   // if data is not resourceful (show, update, delete)
   // skip the rest
   if (!req.meta.resourceful) {
@@ -145,14 +146,6 @@ async function getRaw(req, query) {
 //     },
 //   });
 // });
-
-// rewriter will skip resourceful
-// server.use(jsonServer.rewriter({
-//   '/customer/:customerId/contact/': '/contact/',
-//   '/customer/:customerId/contact/:id': '/contact/:id',
-//   '/customer/:customerId/delivery-note/': '/delivery-note/',
-//   '/customer/:customerId/delivery-note/:id': '/delivery-note/:id'
-// }))
 
 server.use(router);
 
